@@ -19,7 +19,6 @@ echo 'set number' >> ~/.vimrc
 
 # Save file configuration 
 mkdir ~/SaveConfig
-cp -v /etc/bashrc ~/SaveConfig
 cp -v /etc/bash.bashrc ~/SaveConfig
 
 
