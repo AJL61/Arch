@@ -11,7 +11,7 @@ sudo pacman -Syu --noconfirm
 sudo pacman -S vim curl tmux --noconfirm 
 
 # Installation du package Network
-sudo pacman -S NetworkManager --noconfirm
+sudo pacman -S networkmanager --noconfirm
 
 # Configuration vimrc
 echo 'set nocompatible' >> ~/.vimrc
