@@ -44,7 +44,7 @@ source /etc/bash.bashrc >> /dev/null
 # Supprimer le script à la fin de l'installation 
 # rm scpt
 
-
+source /etc/bash.bashrc 
 
 echo ' ===================================== '
 echo '          Operation terminée           '
