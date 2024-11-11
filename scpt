@@ -34,6 +34,7 @@ echo 'alias c="clear"' >> /etc/bash.bashrc
 echo 'alias u="sudo pacman -Syu --noconfirm"' >> /etc/bash.bashrc
 echo 'alias i="sudo pacman -S --noconfirm"' >> /etc/bash.bashrc
 echo 'alias s="sudo pacman -Ss"' >> /etc/bash.bashrc
+echo 'alias vi="vim"' >> /etc/bash.bashrc
 echo 'eval "$(starship init bash)"' >> /etc/bash.bashrc
 
 
