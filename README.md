@@ -1,0 +1,2 @@
+# Arch
+Script for archlinux 
