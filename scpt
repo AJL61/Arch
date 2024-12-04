@@ -17,6 +17,19 @@ sudo pacman -S networkmanager --noconfirm
 echo 'set nocompatible' >> ~/.vimrc
 echo 'set number' >> ~/.vimrc
 
+# Configuration vimrc indentation
+echo 'set autoindent' >> /etc/vimrc
+echo 'set smartindent' >> /etc/vimrc
+echo 'set tabstop=4' >> /etc/vimrc
+echo 'set shiftwidth=4' >> /etc/vimrc
+echo 'set expandtab' >> /etc/vimrc
+
+echo 'inoremap { {}<Left>' >> /etc/vimrc
+echo 'inoremap ( ()<Left>' >> /etc/vimrc
+echo 'inoremap " ""<Left>' >> /etc/vimrc
+echo 'inoremap [ []<Left>' >> /etc/vimrc
+
+
 # Save file configuration 
 mkdir ~/SaveConfig
 cp -v /etc/bash.bashrc ~/SaveConfig
