@@ -14,8 +14,8 @@ sudo pacman -S vim curl tmux --noconfirm
 sudo pacman -S networkmanager --noconfirm
 
 # Configuration vimrc
-echo 'set nocompatible' >> ~/.vimrc
-echo 'set number' >> ~/.vimrc
+echo 'set nocompatible' >> /etc/vimrc
+echo 'set number' >> /etc/vimrc
 
 # Configuration vimrc indentation
 echo 'set autoindent' >> /etc/vimrc
